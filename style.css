@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #fff;
+
+}
+
+.header-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+header {
+    background-image: url("nova.jpg");
+    padding-bottom: 200px;
+
+}
+
+.header-content .btn-light a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-light {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 15px 15px;
+    border-style: none;
+
+}
+
+
+
+#main-nav ul {
+    display: inline-flex;
+    list-style: none;
+    float: right;
+}
+
+li {
+    padding: 1rem 1.5rem;
+}
+
+#main-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+    color: black;
+}
+
+.naslov,
+p {
+    text-align: center;
+
+}
+
+h1 {
+    padding-top: 150px;
+}
+
+.text-center {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.section-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-title2 {
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.specials {
+    display: flex;
+    text-align: center;
+}
+
+.specials i {
+    color: #696969;
+}
+
+.specials h3 {
+    text-align: center;
+}
+
+.section-title {
+    padding-bottom: 20px;
+}
+
+.lead {
+    padding-bottom: 40px;
+}
+
+.stats {
+    text-align: center;
+    display: flex;
+    padding-top: 100px;
+
+}
+
+.process {
+    display: flex;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.stats-in {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.stats-in1 {
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.stats-title {
+    font-size: 24px;
+}
+
+.stats-number {
+    font-size: 20px;
+}
+
+.footer-content {
+    display: flex;
+    background-color: cadetblue;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.footer-content p {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+
+.social {
+    margin-left: auto;
+    padding-right: 20px;
+
+}
+
+.social a {
+    padding: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    color: black;
+}
+
+.process h3 {
+    padding-top: 20px;
+}
+
+.stats-in1 ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.stats-in ul {
+    list-style: none;
+}
+
+.process i {
+    color: #696969;
+}

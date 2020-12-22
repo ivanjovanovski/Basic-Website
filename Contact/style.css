@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-nav {
+    background-image: url(nova.jpg);
+    display: flex;
+    text-decoration: none;
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 15px 50px;
+    font-size: 20px;
+    display: inline-flex;
+    margin-left: auto;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.glaven-text {
+    text-align: center;
+    font-size: 35px;
+}
+
+.p-text {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.text-fields {
+    display: grid;
+}
+
+form {
+    padding: 50px 500px 50px 500px;
+}
+
+.text-fields input {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.text-fields textarea {
+    margin-bottom: 20px;
+}
+
+/*.subject-input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.email-input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.phone-input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.text-input {
+    border-radius: 5px;
+    height: 100px;
+}*/
+
+.btn-dark {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 142px;
+    color: white;
+}
+
+button {
+    background-color: cadetblue;
+}
+
+.contact-info {
+    text-align: center;
+    background-color: dimgrey;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.contact-container {
+    display: inline-flex;
+}
+
+.info {
+    padding-right: 50px;
+    color: white;
+}
+
+.info2 {
+    color: white;
+}
+
+.info h3 {
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+.info2 h3 {
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+.info2 p {
+    font-size: 18px;
+}
+
+.container3 {
+    background-color: darkseagreen;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container3 h1 {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    background-color: cadetblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-container p {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.icon-click {
+    color: black;
+}
+
+.social a {
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px;
+}
